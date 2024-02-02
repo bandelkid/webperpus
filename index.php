@@ -39,8 +39,7 @@
                     require_once "config.php";
 
                     // Attempt select query execution
-                    $link = mysqli_connect($servername, $username, $password, $database);
-                    
+                   
 
                     $sql = "SELECT * FROM tabel_buku";
                     if($result = mysqli_query($link, $sql)){
